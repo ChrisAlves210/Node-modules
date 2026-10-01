@@ -2,13 +2,13 @@
 
 :root {
   color-scheme: light;
-  --paper: #f2efe6;
-  --ink: #202720;
-  --muted: #777a70;
-  --line: #d7d3c8;
-  --green: #365c46;
-  --orange: #e36d46;
-  --white: #fffefa;
+  --paper: #edf3f7;
+  --ink: #202a35;
+  --muted: #536574;
+  --line: #cedbe5;
+  --blue: #315f83;
+  --orange: #b6492a;
+  --white: #fbfdff;
   --mono: 'DM Mono', 'SFMono-Regular', Consolas, monospace;
   --sans: 'DM Sans', 'Avenir Next', sans-serif;
   --serif: 'Playfair Display', Georgia, serif;
@@ -24,7 +24,7 @@ body {
   margin: 0;
   color: var(--ink);
   background-color: var(--paper);
-  background-image: radial-gradient(#9d9a8e 0.55px, transparent 0.55px);
+  background-image: radial-gradient(#8d9eaa 0.55px, transparent 0.55px);
   background-size: 7px 7px;
   font-family: var(--sans);
 }
@@ -69,7 +69,7 @@ button {
   display: grid;
   place-items: center;
   color: var(--white);
-  background: var(--green);
+  background: var(--blue);
   font: 600 15px var(--serif);
   letter-spacing: 0;
 }
@@ -85,8 +85,8 @@ button {
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: #5d8b61;
-  box-shadow: 0 0 0 3px #5d8b6120;
+  background: #4e82a7;
+  box-shadow: 0 0 0 3px #4e82a720;
 }
 
 .intro {
@@ -104,7 +104,7 @@ button {
 
 .eyebrow {
   margin: 0 0 17px;
-  color: var(--green);
+  color: var(--blue);
 }
 
 .eyebrow span {
@@ -119,7 +119,7 @@ h1 {
 }
 
 h1 em {
-  color: var(--green);
+  color: var(--blue);
   font-weight: 600;
 }
 
@@ -221,8 +221,8 @@ textarea {
 
 input:focus,
 textarea:focus {
-  border-color: var(--green);
-  box-shadow: 0 0 0 2px #365c461a;
+  border-color: var(--blue);
+  box-shadow: 0 0 0 2px #315f831a;
 }
 
 .result-row {
@@ -235,7 +235,7 @@ textarea:focus {
 
 .number-result {
   min-width: 0;
-  color: var(--green);
+  color: var(--blue);
   font: 600 38px/1 var(--serif);
   font-variant-numeric: tabular-nums;
 }
@@ -246,7 +246,7 @@ textarea:focus {
   border: 0;
   border-radius: 2px;
   color: var(--white);
-  background: var(--green);
+  background: var(--blue);
   cursor: pointer;
   font-size: 12px;
   font-weight: 600;
@@ -254,7 +254,7 @@ textarea:focus {
 }
 
 .action-button:hover {
-  background: #294a37;
+  background: #274d6b;
   transform: translateY(-1px);
 }
 
@@ -278,7 +278,7 @@ textarea:focus {
 .text-result {
   min-width: 0;
   overflow-wrap: anywhere;
-  color: var(--green);
+  color: var(--blue);
   font: 12px/1.5 var(--mono);
 }
 
@@ -293,8 +293,8 @@ textarea:focus {
 }
 
 .copy-button:hover {
-  border-color: var(--green);
-  color: var(--green);
+  border-color: var(--blue);
+  color: var(--blue);
 }
 
 .count-result {
@@ -302,7 +302,7 @@ textarea:focus {
   align-items: baseline;
   gap: 10px;
   margin-top: 16px;
-  color: var(--green);
+  color: var(--blue);
 }
 
 .count-result output {
