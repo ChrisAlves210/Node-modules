@@ -33,3 +33,5 @@ npm start
 ```
 
 Then open [http://127.0.0.1:3000](http://127.0.0.1:3000). The page uses the same modules through a small built-in Node.js HTTP server.
+
+Also made this Accessable for all people 
